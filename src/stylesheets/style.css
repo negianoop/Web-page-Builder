@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.gjs-row {
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  flex-wrap: nowrap;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+
+#igmk {
+  color: var(--e-global-color-text);
+  background-color: #262932;
+}
+
+.gjs-cell {
+  min-height: 75px;
+  flex-grow: 1;
+  flex-basis: 100%;
+}
+
+#i5275n {
+  height: 487px;
+}
+
+#ip0sih {
+  flex-basis: 30%;
+}
+
+#i43oph {
+  flex-basis: 70%;
+  color: #e6aa15;
+}
+
+#imwifi {
+  flex-direction: row-reverse !important;
+  height: 116px;
+}
+
+#ia3bzp {
+  padding: 10px;
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 3rem;
+  text-align: center;
+  color: #cfcfcf;
+  background-color: #256576;
+  border-radius: 0.3em 0.3em 0.3em 0.3em;
+}
+
+#iv9i3n {
+  padding: 10px;
+  font-family: Arial Black, Gadget, sans-serif;
+  font-size: 3.3rem;
+  color: #cfcfcf;
+}
+
+#i8h328 {
+  justify-content: flex-end !important;
+  align-items: center;
+  display: flex !important;
+}
+
+#igouty {
+  color: black;
+  height: 80%;
+  width: 97%;
+  box-shadow: 0 0 30px 0 black;
+  border-radius: 0.4em 0.4em 0.4em 0.4em;
+}
+
+#ig2rcr {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center;
+  justify-content: space-around !important;
+  flex-basis: 104%;
+}
+
+#iho7ni {
+  padding: 10px;
+}
+
+#imjox6 {
+  color: #369c61;
+  font-family: Comic Sans MS, cursive, sans-serif;
+  font-size: 1.2em;
+  font-weight: 800;
+}
+
+.logo {
+  padding: 10px;
+  font-family: Courier New, Courier, monospace;
+  font-size: 2rem;
+  color: #e6aa15;
+  font-weight: 900;
+  text-shadow: -2px 0px 69px #ffd500;
+}
+
+ a{
+  text-decoration: none;
+  display: inline-block;
+  color: #cfcfcf;
+  background-color: inherit;
+
+}
+ a:link, a:visited{
+  text-decoration: none;
+  display: inline-block;
+  color: #cfcfcf;
+  background-color: inherit;
+}
+ a:hover, a:focus, a:active{
+  text-decoration: none;
+  display: inline-block;
+  color: #c47474;
+  background-color: inherit;
+}
+
+@media (max-width: 768px) {
+  .gjs-row {
+    flex-wrap: wrap;
+  }
+}
