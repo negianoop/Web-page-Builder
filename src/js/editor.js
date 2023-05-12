@@ -89,7 +89,7 @@ var editor  = grapesjs.init({
           'border',
           'box-shadow',
           'background-color', // { id: 'background-bg', property: 'background', type: 'bg' 
-          'background',
+          
           }
         ],
       },
