@@ -1,2 +1,2 @@
-# Web-Designing-Tool
-This is just a college project built with grapes-js, html and css 
+# Web-Page Builder
+This is a college project built with grapes-js, html and css 
